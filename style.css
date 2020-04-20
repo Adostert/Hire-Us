@@ -1,0 +1,83 @@
+
+.nav1 {
+margin-top: 20px;
+float:left;
+}
+.navitemwrapper {
+position: right;
+
+}
+.navitem1, .navitem2, .navitem3, .navitem4 {
+position: relative;
+color: #69696a;
+padding-bottom: 40px;
+overflow: auto;
+}
+.navitem1:hover, .navitem2:hover, .navitem3:hover, .navitem4:hover {
+
+color: rgb(78, 200, 204);
+}
+.navitem5 {
+position: absolute;
+left: 32%;
+top: 20%;
+text-align: center;
+border-radius: 25px;
+padding: 10px 40px;
+background-color: #000000;
+color: #ffffff;
+border-radius: 25px;
+width: 30%;
+}
+.navitem5:hover {
+background-color: rgb(166, 243, 166);
+}
+.navlogo {
+position: top right;
+left: 2%;
+font-weight: bold;
+color: #000000;
+padding-bottom: 30px;
+}
+.navlogo:hover {
+transform: scale(1.10);
+}
+.chirphead {
+position: absolute;
+left: 2%;
+padding-top: 60px;
+left: 2%;
+top:15%;
+}
+.bodycopy {
+position: absolute;
+padding-top: 10px;
+padding-left: 10px;
+display: inline-block;
+width: 250px;
+left: 2%;
+top: 30%;
+border-left: 1px solid #000000;
+
+}
+.scrollbut {
+position: absolute;
+left: 32%;
+top: 80%;
+display: inline-block;
+text-align: center;
+border-radius: 15px;
+padding: 10px 40px;
+background-color: #000000;
+color: #ffffff;
+border-radius: 25px;
+width: 30%
+}
+.scrollbut:hover{
+background-color: rgb(247, 169, 96);
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+background-color: #f9fafc;
+}
